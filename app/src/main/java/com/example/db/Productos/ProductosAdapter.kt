@@ -1,10 +1,11 @@
-package com.example.db
+package com.example.db.Productos
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import com.example.db.R
 import kotlinx.android.synthetic.main.item_producto.view.*
 
 class ProductosAdapter(private val mContext: Context, private val listaProductos: List<Producto>) : ArrayAdapter<Producto>(mContext,0,listaProductos){

@@ -1,7 +1,8 @@
-package com.example.db
+package com.example.db.Productos
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.db.R
 import kotlinx.android.synthetic.main.activity_producto.*
 
 class ProductoActivity : AppCompatActivity() {
