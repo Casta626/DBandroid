@@ -40,7 +40,12 @@ class MainActivity : AppCompatActivity() {
 
         lista.setOnItemClickListener{ parent, view, position, id ->
             val intent = Intent(this, ProductoActivity::class.java)
-            intent.putExtra("producto", listaProductos[position])
+            intent.putExtra("id", listaProductos[position].idProducto)
+            startActivity(intent)
+        }
+
+        floatingActionButton.setOnClickListener{
+            val intent = Intent(this, NuevoProductoActivity::class.java)
             startActivity(intent)
         }
     }

@@ -8,7 +8,7 @@
     tools:context=".NuevoProductoActivity">
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/eT_nombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNumberDecimal"
+        android:id="@+id/eT_precio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -32,12 +32,12 @@
         android:inputType="numberDecimal"
         android:minHeight="48dp"
         android:textColorHint="#004D40"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintStart_toStartOf="@+id/eT_nombre"
+        app:layout_constraintTop_toBottomOf="@+id/eT_nombre"
         android:autofillHints="" />
 
     <EditText
-        android:id="@+id/editTextTextMultiLine"
+        android:id="@+id/eT_descripcion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -52,10 +52,10 @@
         android:textColorHint="#004D40"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal" />
+        app:layout_constraintTop_toBottomOf="@+id/eT_precio" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/boton_guargar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/guardar"
@@ -63,5 +63,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine" />
+        app:layout_constraintTop_toBottomOf="@+id/eT_descripcion" />
 </androidx.constraintlayout.widget.ConstraintLayout>

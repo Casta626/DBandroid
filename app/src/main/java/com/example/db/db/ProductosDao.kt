@@ -1,10 +1,7 @@
 package com.example.db.db
 
 import androidx.lifecycle.LiveData
-import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.Query
-import androidx.room.Update
+import androidx.room.*
 import com.example.db.Productos.Producto
 
 @Dao
@@ -20,5 +17,8 @@ interface  ProductosDao{
 
     @Update
     fun update(producto: Producto)
+
+    @Delete
+    fun delete(producto: Producto)
 
 }

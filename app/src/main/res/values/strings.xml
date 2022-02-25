@@ -7,4 +7,8 @@
     <string name="precio">Precio</string>
     <string name="descripcion">Descripción</string>
     <string name="guardar">Guardar</string>
+    <string name="editar">Editar</string>
+    <string name="borrar">Borrar</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="insertar">Insertar</string>
 </resources>
