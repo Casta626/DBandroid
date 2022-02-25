@@ -7,6 +7,7 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
+import com.example.db.AyudaActivityDB
 import com.example.db.NuevoProductoActivity
 import com.example.db.R
 import com.example.db.db.ProductoDatabase
@@ -24,6 +25,8 @@ class ProductoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_producto)
+
+        database = ProductoDatabase.getDatabase(this)
 
         val idProducto = intent.getIntExtra("id",0)
 
@@ -64,7 +67,8 @@ class ProductoActivity : AppCompatActivity() {
                 }
             }
             R.id.item_ayuda -> {
-
+                val intent2 = Intent(this, AyudaActivityDB::class.java)
+                startActivity(intent2)
             }
         }
 

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DB</string>
+    <string name="app_name">DB CastaTienda</string>
     <string name="crear_base_de_datos">Crear Base de Datos</string>
     <string name="sinprecio">0.00€</string>
     <string name="caja_extended">Caja Extended</string>
@@ -11,4 +11,14 @@
     <string name="borrar">Borrar</string>
     <string name="ayuda">Ayuda</string>
     <string name="insertar">Insertar</string>
+    <string name="tV_titulo_ayuda">Ayuda sobre la aplicacion DB CastaTienda</string>
+
+    <string name="tV_descripcion_ayuda1">Punto 1.-El botón flotante sirve para abrir la base de Datos y en ella poder insertar, modificar y eliminar productos (al ser nuestra primera versión aún no podemos meter imágenes personalizadas).</string>
+    <string name="tV_descripcion_ayuda2">Punto 2.-Dentro de cada producto hay mas ayuda.</string>
+    <string name="tV_descripcion_ayuda_DB1">Punto 1.-El botón del lápiz sirve para editar los datos del producto que hemos seleccinado.</string>
+    <string name="tV_descripcion_ayuda_DB2">Punto 2.-El botón de la papelera sirve para borrar el producto que hemos seleccinado.</string>
 </resources>
+
+
+
+

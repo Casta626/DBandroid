@@ -3,12 +3,17 @@ package com.example.db
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import androidx.lifecycle.Observer
 import com.example.db.Productos.Producto
 import com.example.db.Productos.ProductoActivity
 import com.example.db.Productos.ProductosAdapter
 import com.example.db.db.ProductoDatabase
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -48,5 +53,23 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, NuevoProductoActivity::class.java)
             startActivity(intent)
         }
+    }
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.producto_menu2, menu)
+
+        return super.onCreateOptionsMenu(menu)
+    }
+
+
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.item_ayuda2 -> {
+                val intent = Intent(this, AyudaActivity::class.java)
+                startActivity(intent)
+            }
+        }
+
+        return super.onOptionsItemSelected(item)
     }
 }

@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DB">
         <activity
+            android:name=".AyudaActivityDB"
+            android:exported="false" />
+        <activity
+            android:name=".AyudaActivity"
+            android:exported="false" />
+        <activity
             android:name=".NuevoProductoActivity"
             android:exported="false" />
         <activity

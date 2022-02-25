@@ -1,5 +1,9 @@
 package com.example.db
 
+import android.content.res.Resources
+import android.graphics.drawable.BitmapDrawable
+import android.graphics.drawable.Drawable
+import android.graphics.drawable.DrawableContainer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.db.Productos.Producto
@@ -32,7 +36,27 @@ class NuevoProductoActivity : AppCompatActivity() {
             val precio = eT_precio.text.toString().toDouble()
             val descripcion = eT_descripcion.text.toString()
 
-            val producto = Producto(nombre, precio, descripcion, R.drawable.procesador)
+            val procesador = R.drawable.procesador
+            val grafica = R.drawable.grafica
+            val fuente_alimentacion = R.drawable.fuente_alimentacion
+            val caja = R.drawable.caja
+
+            var producto_random: Int
+
+            val aletorio=(1 until 5).random()
+                if (aletorio==1){
+                    producto_random=procesador
+                }else if (aletorio==2){
+                    producto_random = grafica
+                }else if (aletorio==3){
+                    producto_random = fuente_alimentacion
+                }else {
+                    producto_random = caja
+                }
+
+
+
+            val producto = Producto(nombre, precio, descripcion, producto_random)
 
             if (idProducto!= null) {
                 CoroutineScope(Dispatchers.IO).launch {

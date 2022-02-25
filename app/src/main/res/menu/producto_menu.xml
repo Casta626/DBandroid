@@ -6,13 +6,15 @@
         android:id="@+id/item_editar"
         android:icon="@drawable/ic_editar"
         android:title="@string/editar"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="always" />
     <item
         android:id="@+id/item_borrar"
+        android:icon="@drawable/ic_borrar"
         android:title="@string/borrar"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="always" />
     <item
         android:id="@+id/item_ayuda"
+        android:icon="@drawable/ic_baseline_help_24"
         android:title="@string/ayuda"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="always" />
 </menu>
