@@ -5,4 +5,7 @@
         android:id="@+id/item_ayuda2"
         android:icon="@drawable/ic_baseline_help_24"
         android:title="@string/ayuda" />
+    <item
+        android:id="@+id/item_retrofit"
+        android:title="@string/retrofit" />
 </menu>

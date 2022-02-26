@@ -1,12 +1,8 @@
-package com.example.db
+package com.example.db.Productos
 
-import android.content.res.Resources
-import android.graphics.drawable.BitmapDrawable
-import android.graphics.drawable.Drawable
-import android.graphics.drawable.DrawableContainer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.db.Productos.Producto
+import com.example.db.R
 import com.example.db.db.ProductoDatabase
 import kotlinx.android.synthetic.main.activity_nuevo_producto.*
 import kotlinx.coroutines.CoroutineScope

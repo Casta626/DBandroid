@@ -8,7 +8,6 @@ import android.view.MenuItem
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
 import com.example.db.AyudaActivityDB
-import com.example.db.NuevoProductoActivity
 import com.example.db.R
 import com.example.db.db.ProductoDatabase
 import kotlinx.android.synthetic.main.activity_producto.*

@@ -17,6 +17,10 @@
     <string name="tV_descripcion_ayuda2">Punto 2.-Dentro de cada producto hay mas ayuda.</string>
     <string name="tV_descripcion_ayuda_DB1">Punto 1.-El botón del lápiz sirve para editar los datos del producto que hemos seleccinado.</string>
     <string name="tV_descripcion_ayuda_DB2">Punto 2.-El botón de la papelera sirve para borrar el producto que hemos seleccinado.</string>
+
+    <string name="id_retrofit">ID</string>
+    <string name="nombre_retrofit">Nombre</string>
+    <string name="retrofit">Retrofit</string>
 </resources>
 
 

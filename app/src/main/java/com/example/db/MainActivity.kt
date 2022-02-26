@@ -6,14 +6,12 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import androidx.lifecycle.Observer
+import com.example.db.Productos.NuevoProductoActivity
 import com.example.db.Productos.Producto
 import com.example.db.Productos.ProductoActivity
 import com.example.db.Productos.ProductosAdapter
 import com.example.db.db.ProductoDatabase
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -66,6 +64,10 @@ class MainActivity : AppCompatActivity() {
         when (item.itemId) {
             R.id.item_ayuda2 -> {
                 val intent = Intent(this, AyudaActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.item_retrofit -> {
+                val intent = Intent(this, RetroFitActivity::class.java)
                 startActivity(intent)
             }
         }
