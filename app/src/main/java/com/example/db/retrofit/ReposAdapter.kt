@@ -1,9 +1,10 @@
-package com.example.db
+package com.example.db.retrofit
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.db.R
 import kotlinx.android.synthetic.main.retrofit_list_item.view.*
 
 class ReposAdapter : RecyclerView.Adapter<ReposAdapter.RepoViewHolder>() {

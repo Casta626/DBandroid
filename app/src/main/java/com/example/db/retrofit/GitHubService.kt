@@ -1,5 +1,6 @@
-package com.example.db
+package com.example.db.retrofit
 
+import com.example.db.retrofit.Repo
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Path

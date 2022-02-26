@@ -11,6 +11,8 @@ import com.example.db.Productos.Producto
 import com.example.db.Productos.ProductoActivity
 import com.example.db.Productos.ProductosAdapter
 import com.example.db.db.ProductoDatabase
+import com.example.db.intent.IntentActivity
+import com.example.db.retrofit.RetroFitActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -68,6 +70,10 @@ class MainActivity : AppCompatActivity() {
             }
             R.id.item_retrofit -> {
                 val intent = Intent(this, RetroFitActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.item_pagina_web -> {
+                val intent = Intent(this, IntentActivity::class.java)
                 startActivity(intent)
             }
         }

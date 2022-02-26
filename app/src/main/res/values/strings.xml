@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DB CastaTienda</string>
+    <string name="app_name">CastaTienda</string>
     <string name="crear_base_de_datos">Crear Base de Datos</string>
     <string name="sinprecio">0.00€</string>
     <string name="caja_extended">Caja Extended</string>
@@ -21,6 +21,9 @@
     <string name="id_retrofit">ID</string>
     <string name="nombre_retrofit">Nombre</string>
     <string name="retrofit">Retrofit</string>
+
+    <string name="pagina_web">Página Web</string>
+    <string name="titulo_pagina_web">Pulsa este botón para ir a la página oficial</string>
 </resources>
 
 

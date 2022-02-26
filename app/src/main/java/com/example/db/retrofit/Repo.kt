@@ -1,4 +1,4 @@
-package com.example.db
+package com.example.db.retrofit
 
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName

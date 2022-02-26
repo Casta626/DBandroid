@@ -8,4 +8,7 @@
     <item
         android:id="@+id/item_retrofit"
         android:title="@string/retrofit" />
+    <item
+        android:id="@+id/item_pagina_web"
+        android:title="@string/pagina_web" />
 </menu>

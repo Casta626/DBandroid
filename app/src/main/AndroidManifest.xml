@@ -12,7 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DB">
         <activity
-            android:name=".RetroFitActivity"
+            android:name=".intent.IntentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".retrofit.RetroFitActivity"
             android:exported="false" />
         <activity
             android:name=".AyudaActivityDB"

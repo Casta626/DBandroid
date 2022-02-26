@@ -1,9 +1,10 @@
-package com.example.db
+package com.example.db.retrofit
 
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.db.R
 import kotlinx.android.synthetic.main.activity_retrofit.*
 import retrofit2.Call
 import retrofit2.Callback
